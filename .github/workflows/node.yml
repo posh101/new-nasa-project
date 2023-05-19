@@ -1,12 +1,12 @@
 name: NASA Project CI
-   on:
+on:
    push:
      branches:
      - main
    pull_request:
      branches:
      - main
-   jobs:
+jobs:
    build:
      runs-on: windows-latest
    steps:
