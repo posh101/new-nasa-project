@@ -1,7 +1,6 @@
 {
   "name": "nasa-planets-project",
   "version": "1.0.0",
-  "description": "NASA projects",
   "main": "src/server.js",
   "scripts": {
     "test": "jest --detectOpenHandles",
