@@ -1,8 +1,8 @@
 name: NASA Project CI
 on:
    push:
-      branches: [ main ]
-   pull_request: [ main ]
+      branches: main 
+   pull_request: main
 jobs:
    build:
       runs-on: windows-latest
