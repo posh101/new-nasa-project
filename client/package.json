@@ -10,8 +10,9 @@
     "react-scripts": "^5.0.0"
   },
   "scripts": {
+    "run-build": " npm  build --prefix client",
     "start": "react-scripts start",
-    "build": "BUILD_PATH=../server/public react-scripts build   npm run build --prefix client",
+    "build": "BUILD_PATH=../server/public react-scripts build",
     "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject"
   },
